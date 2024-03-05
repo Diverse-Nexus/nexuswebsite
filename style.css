@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.navbar button:hover{
+    background-color: rgb(226, 219, 226);
+    color: black;
+}
+
+.about-us{
+    display: flex-box;
+    align-content: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 219, 226);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.projects{
+    margin: 20px;
+}
+
+.projects-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.project{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(226, 219, 226);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.upcoming-projects{
+    display: flexbox;
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(226, 219, 226);
+}
+
+.upcoming-projects ol{
+    margin-left: 40px;
+    display: flexbox;
+    line-height: 250%;
+}
+
+.our-teams{
+    margin: 20px;
+}
+
+.our-teams h2{
+    text-align: center;
+}
+
+.our-teams p{
+    text-align: center;
+}
+
+.team-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.team{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(226, 219, 226);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 25px;
+    background-color: black;
+    color: white;
+}
+
+/* mobile responsive */
+
+@media screen and (max-width:550px) {
+    
+.team-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+}
