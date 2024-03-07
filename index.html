@@ -5,80 +5,180 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diverse Nexus</title>
     <link rel="stylesheet" href="style.css">
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
 <body>
-    <!--Nav bar-->
-    <nav class="navbar" id="home">
+
+    <!--hero-section-->
+    <div class="hero-section">
+        <!--nav-bar-->
+        <video id="video-background" autoplay muted loop>
+            <source src=".\assets\intro.mp4" type="video/mp4">
+            <!-- Add more source elements for other video formats (WebM, Ogg) -->
+            Your browser does not support the video tag.
+        </video>
+        <nav class="nav-bar">
+            <a href="#"><span style="color: white;">Home</span></a>
+            <a href="#"><span style="color: white;">About</span></a>
+            <a href="#"><span style="color: white;">Blog</span></a>
+            <a href="#"><span style="color: white;">Contact</span></a>
+        </nav>
+        <div class="intro">
+            <h1>DIVERSE <span style="color: hwb(336 0% 0%);">NEXUS</span></h1>
+            <h2>Our awesome portfolio</h2>
+            <p>get to know us better</p>
+        </div>
+        <div class="blog-intro">
+            <h3>Explore our blog.</h3></div>
+        <div class="blog-intro">
+            <a href="#"><button>Read Blog</button></a>
+        </div>        
+    </div>
+
+    <!--about-us-->
+    <div class="about-one">
         <div>
-            <h1 style="font-family: serif; font-size: xx-large;">Diverse Nexus</h1>
+            <img src="..." alt="..." height="300px" width="300px">
         </div>
-        <div>
-            <button>Home</button>
-            <a href="#about-us"><button>About</button></a>
-            <a href="#projects"><button>Projects</button></a>
-            <a href="#contact"><button>Contact</button></a>
-        </div>
-    </nav>
-
-    <!--About us-->
-    <div class="about-us" id="about-us">
-        <h2 >About us</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente nobis illo recusandae, mollitia autem voluptas nesciunt provident. Possimus, ullam eius. Placeat, consequuntur aliquam. Similique, fugiat cumque. Laudantium tempore voluptate maiores reprehenderit corrupti aut eius provident exercitationem, nesciunt fuga vitae consectetur, cumque dolorum. Quos quisquam sit ea ad expedita error nemo.</p>
-    </div>
-
-    <!--Projects-->
-    <div class="projects" id="projects">
-        <h2>Projects</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, animi eius sit iure minus architecto aliquid officiis ex. Et, aperiam?</p>
-        <div class="projects-container">
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+            <h2>Who are we?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae accusantium nostrum dolorum provident necessitatibus ipsum modi molestiae, odit cupiditate praesentium consequatur sequi. Nisi odit temporibus sapiente earum, nam in!</p>
+            <a href="#"><span style="color: hwb(336 0% 0%)">Read more ➜</span></a>
         </div>
     </div>
 
-    <!--Upcoming Projects-->
-    <div class="upcoming-projects" id="uppr">
-        <h2>Upcoming Projects</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, rerum?</p>
-        <ol>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-        </ol>
+    <!--team-section-->
+
+    <div class="about-two"  style="text-align: center;">
+        <h2>Our Expertise</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae sint et quasi aspernatur vitae, incidunt aliquam quis modi inventore.</p>
     </div>
 
-    <!--Teams-->
-    <div class="our-teams" id="teams">
-        <h2>Our teams</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, eligendi!</p>
-        <div class="team-container">
-            <div class="team"></div>
-            <div class="team"></div>
-            <div class="team"></div>
-            <div class="team"></div>
+    <div class="about-teams">
+        <div class="sector-one">
+            <i></i>
+            <h3>Web development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="sector-one">
+            <i></i>
+            <h3>DevOps</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="sector-one">
+            <i></i>
+            <h3>Machine Learning</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="sector-one">
+            <i></i>
+            <h3>Mobile App development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="sector-one">
+            <i></i>
+            <h3>Game development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="sector-one">
+            <i></i>
+            <h3>Cloud computing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="sector-one">
+            <i></i>
+            <h3>Data Science</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="sector-one">
+            <i></i>
+            <h3>Cyber Security</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         </div>
     </div>
 
-    <!--Footer-->
-    <div class="footer" id="contact">
-        <div class="footer-container">
-            <div class="footer-box-one">
-                <h2 class="heading-text">Diverse Nexus</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, veniam.</p>
-                <div class="footer-icon-container">
-                    <i class="fa-brands fa-instagram" style="color: white"></i>
-                    <i class="fa-brands fa-twitter" style="color: white"></i>
-                    <i class="fa-brands fa-facebook" style="color: white"></i>
-                </div>
-                <p>@2024 diversenexus.com</p>
-            </div>
+    <!--project-section-->
+    <h2 style="text-align: center;">Our projects</h2>
+
+    <div class="projects-container">
+        <div class="project">
+            <img src="..." alt="...">
+            <h3>Project Name</h3>
+            <p>Lorem, ipsum.</p>
+        </div>
+        <div class="project">
+            <img src="..." alt="...">
+            <h3>Project Name</h3>
+            <p>Lorem, ipsum.</p>
+        </div>
+        <div class="project">
+            <img src="..." alt="...">
+            <h3>Project Name</h3>
+            <p>Lorem, ipsum.</p>
+        </div>
+        <div class="project">
+            <img src="..." alt="...">
+            <h3>Project Name</h3>
+            <p>Lorem, ipsum.</p>
+        </div>
+        <div class="project">
+            <img src="..." alt="...">
+            <h3>Project Name</h3>
+            <p>Lorem, ipsum.</p>
+        </div>
+        <div class="project">
+            <img src="..." alt="...">
+            <h3>Project Name</h3>
+            <p>Lorem, ipsum.</p>
         </div>
     </div>
 
+    <!--blog-section-->
+
+    <div class="blog-heading">
+        <h2>Latest from the Blog</h2>
+        <a href="#"><button class="blog-button">Our Blog</button></a>
+    </div>
+
+    <div class="blog-container">
+        <div class="blog">
+            <img src="..." alt="...">
+            <p>DESIGN * 00.00.2000</p>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <a href="#"><span style="color: hwb(336 0% 0%);">Read more ➜</span></a>
+        </div>
+        <div class="blog">
+            <img src="..." alt="...">
+            <p>DESIGN * 00.00.2000</p>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <a href="#"><span style="color: hwb(336 0% 0%);">Read more ➜</span></a>
+        </div>
+        <div class="blog">
+            <img src="..." alt="...">
+            <p>DESIGN * 00.00.2000</p>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <a href="#"><span style="color: hwb(336 0% 0%);">Read more ➜</span></a>
+        </div>
+    </div>
+
+    <!--member-section-->
+    <h2 style="text-align: center;">Our Members</h2>
+    <!--Use Cards here-->
+
+    <hr>
+    <!--footer-->
+    <footer>
+        <i></i><h2>Diverse Nexus</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, repellat?</p>
+        <i></i><i></i><i></i><i></i><i></i>
+    </footer>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Diverse Nexus</p>
+        <p>All Rights Reserved | <a href="#">Terms and Conditions</a> | <a href="#">Privacy policy</a></p>
+        </div>
     <script src="script.js"></script>
 </body>
 </html>
