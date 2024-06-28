@@ -54,7 +54,8 @@ body{
 
 
 
-#video-background {
+/*#video-background*/
+#background {
     position: absolute;
     top: 0;
     left: 0;
@@ -149,6 +150,10 @@ body{
     padding: 20px;
 }
 
+.about-one img{
+    border-radius: 50px;
+}
+
 .about-one a:link{
     color: hwb(336 0% 0%);
     text-decoration: none;
@@ -161,6 +166,7 @@ body{
     flex-wrap: wrap;
     gap: 30px;
     padding: 20px;
+    justify-content: space-between;
 }
 
 /* our projects */
@@ -170,6 +176,7 @@ body{
     flex-wrap: wrap;
     gap: 50px;
     padding: 20px;
+    justify-content: space-evenly;
 }
 
 /* blog */
@@ -185,6 +192,7 @@ body{
     padding: 20px;
     flex-direction: row;
     gap: 30px;
+    justify-content: space-evenly;
 }
 
 .blog-container a:link{
